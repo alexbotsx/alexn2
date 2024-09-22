@@ -1,10 +1,10 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Sur4);
+  m.reply(global.menuff);
 };
-handler.command = /^(Sur4|Sur4)$/i;
+handler.command = /^(menuff|menuff)$/i;
 export default handler;
 
-global.Sur4 = `
+global.menuff = `
 > *⌜ ＭＥＮＵ|ＶＥＲＳＵＳ ⌟*
 
 ━━━━━━━━━━━━━━━━━━━
