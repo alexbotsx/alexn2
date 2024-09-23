@@ -116,8 +116,7 @@ ${tradutor.texto2[1]}
     } catch (error) {
         global.db.data.users[m.sender].language = 'es'
         global.db.data.chats[m.chat].language = 'es'
-        m.reply(`*[ERROR]* -  _Por defecto el idioma estaba configurado en español._
-                \`\`\`contacta a los creadores del bot\`\`\` `)
+      
     }
 
 
