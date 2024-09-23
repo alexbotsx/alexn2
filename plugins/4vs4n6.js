@@ -1,10 +1,10 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.vsn6);
+  m.reply(global.Sur4);
 };
-handler.command = /^(vsn6|vsn6)$/i;
+handler.command = /^(Sur4|Sur4)$/i;
 export default handler;
 
-global.vsn6 = `
+global.Sur4 = `
 ╭──────⚔──────╮
         4 𝗩𝗘𝗥𝗦𝗨𝗦 4
 ╰──────⚔──────╯
